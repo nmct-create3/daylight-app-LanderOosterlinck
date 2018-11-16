@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" class="is-day">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Daylight</title>
+        <meta name="description" content="An app about the time of the day the sun is up.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="msapplication-TileColor" content="#cce7ff">
+        <meta name="theme-color" content="#cce7ff">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#0f3557">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/screen.css">
+    </head>
+    <body>
+        <main class="c-app">
+            <h1 class="c-logo">
+                Daylight
+            </h1>
+            <div class="c-horizon">
+                <div class="c-horizon__sky-wrapper">
+                    <div class="c-horizon__sky">
+                        <span class="c-horizon__sun js-sun" data-time="08:00" style="bottom: 0%; left: 0%;">
+
+                        </span>
+                        <span class="c-horizon__sun js-sun" data-time="10:30" style="bottom: 60%; left: 20%;">
+
+                        </span>
+                        <span class="c-horizon__sun js-sun" data-time="12:00" style="bottom: 100%; left: 50%;">
+
+                        </span>
+                        <span class="c-horizon__sun js-sun" data-time="19:01" style="bottom: 5%; left: 100%;">
+                            
+                        </span>
+                    </div>
+                </div>
+                <div class="c-horizon__line">
+                    <time class="c-horizon__time js-sunrise">
+                        07:59
+                    </time>
+                    <time class="c-horizon__time js-sunset">
+                        19:07
+                    </time>
+                </div>
+            </div>
+            <p class="c-app__summary">
+				<span class="js-time-left">4</span> minutes sunlight left today. Make the most of it!
+            </p>
+            <p class="c-app__location js-location">
+                Kortrijk, Belgium
+            </p>
+        </main>
+	</body>
+</html>
